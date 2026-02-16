@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff7ef;
+    color: #222;
+}
+
+header {
+    background-color: #9f0606;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #7a1f2b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #c70505;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.instagram {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f4e3c3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.instagram:hover {
+    color: white;
+    transform: scale(1.05);
+}
